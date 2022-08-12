@@ -1,0 +1,11 @@
+{	
+	"name": "Node.Js",	
+	"image": "registry.nse-groupe.com:443/nse_prod/nse_visual_studio_code_nodejs_environment:1.1.1",
+	"extensions": [
+		"dsznajder.es7-react-js-snippets",
+		"ExpressSnippets.vscode-express-snippets",
+		"ms-vscode.vscode-typescript-next",
+		"burkeholland.simple-react-snippets"
+	],
+	"postCreateCommand": "npm rebuild node-sass"
+}
